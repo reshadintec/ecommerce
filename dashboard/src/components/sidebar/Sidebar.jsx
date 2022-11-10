@@ -1,5 +1,5 @@
 import './sidebar.css'
-import { Domain, Insights, TrendingUp } from '@mui/icons-material';
+import { Domain, Euro, EuroOutlined, Group, GroupOutlined, Insights, InsightsOutlined, LineStyleOutlined, MailOutlineOutlined, MessageOutlined, NextWeekOutlined, QuizOutlined, ReportOutlined, Store, Storefront, StorefrontOutlined, Summarize, SummarizeOutlined, TrendingUp, TrendingUpOutlined } from '@mui/icons-material';
 export default function Sidebar() {
   return (
     <div className='sidebar'>
@@ -8,15 +8,15 @@ export default function Sidebar() {
           <h3 className="sidebarTitle">Dashboard</h3>
           <ul className="sidebarList">
             <li className="sidebarListItem active">
-              <Domain className="sidebarIcon"/>
+              <LineStyleOutlined className="sidebarIcon"/>
               Home
             </li>
             <li className="sidebarListItem">
-              <Insights className="sidebarIcon"/>
+              <InsightsOutlined className="sidebarIcon"/>
               Insights
             </li>
             <li className="sidebarListItem">
-              <TrendingUp className="sidebarIcon"/>
+              <TrendingUpOutlined className="sidebarIcon"/>
               Sales
             </li>
           </ul>
@@ -25,16 +25,21 @@ export default function Sidebar() {
           <h3 className="sidebarTitle">Quick Menu</h3>
           <ul className="sidebarList">
             <li className="sidebarListItem active">
-              <Domain className="sidebarIcon"/>
-              Home
+              <GroupOutlined className="sidebarIcon"/>
+              Users
             </li>
             <li className="sidebarListItem">
-              <Insights className="sidebarIcon"/>
-              Insights
+              <StorefrontOutlined className="sidebarIcon"/>
+              Products
             </li>
             <li className="sidebarListItem">
-              <TrendingUp className="sidebarIcon"/>
-              Sales
+              <EuroOutlined className="sidebarIcon"/>
+              Transactions
+            </li>
+
+            <li className="sidebarListItem">
+              <SummarizeOutlined className="sidebarIcon"/>
+              Reports
             </li>
           </ul>
         </div>
@@ -42,16 +47,16 @@ export default function Sidebar() {
           <h3 className="sidebarTitle">Notifications</h3>
           <ul className="sidebarList">
             <li className="sidebarListItem active">
-              <Domain className="sidebarIcon"/>
-              Home
+              <MailOutlineOutlined className="sidebarIcon"/>
+              Mail
             </li>
             <li className="sidebarListItem">
-              <Insights className="sidebarIcon"/>
-              Insights
+              <QuizOutlined className="sidebarIcon"/>
+              FAQ
             </li>
             <li className="sidebarListItem">
-              <TrendingUp className="sidebarIcon"/>
-              Sales
+              <MessageOutlined className="sidebarIcon"/>
+              Messages
             </li>
           </ul>
         </div>
@@ -59,16 +64,16 @@ export default function Sidebar() {
           <h3 className="sidebarTitle">Staff</h3>
           <ul className="sidebarList">
             <li className="sidebarListItem active">
-              <Domain className="sidebarIcon"/>
-              Home
+              <NextWeekOutlined className="sidebarIcon"/>
+              Manage
             </li>
             <li className="sidebarListItem">
-              <Insights className="sidebarIcon"/>
+              <InsightsOutlined className="sidebarIcon"/>
               Insights
             </li>
             <li className="sidebarListItem">
-              <TrendingUp className="sidebarIcon"/>
-              Sales
+              <ReportOutlined className="sidebarIcon"/>
+              Reports
             </li>
           </ul>
         </div>
