@@ -1,5 +1,5 @@
 import './sidebar.css'
-import { Domain, Euro, EuroOutlined, Group, GroupOutlined, Insights, InsightsOutlined, LineStyleOutlined, MailOutlineOutlined, MessageOutlined, NextWeekOutlined, QuizOutlined, ReportOutlined, Store, Storefront, StorefrontOutlined, Summarize, SummarizeOutlined, TrendingUp, TrendingUpOutlined } from '@mui/icons-material';
+import {  EuroOutlined,  GroupOutlined,  InsightsOutlined, LineStyleOutlined, MailOutlineOutlined, MessageOutlined, NextWeekOutlined, QuizOutlined, ReportOutlined, StorefrontOutlined, SummarizeOutlined, TrendingUpOutlined } from '@mui/icons-material';
 export default function Sidebar() {
   return (
     <div className='sidebar'>
